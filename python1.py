@@ -11,3 +11,19 @@ y = x.copy()
 y[0] = 100
 print("y =",y)
 print("x =",x)
+
+X = 20
+Y = X
+Y = 5
+print(id(X))
+print(id(Y))
+print(Y)
+print(X)
+
+X = ["a", "b"]
+Y = X
+Y[0] = "p"
+print(id(X))
+print(id(Y))
+print(Y)
+print(X)
