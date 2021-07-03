@@ -12,4 +12,3 @@ seat.append("p")
 seat.append("p")
 min <= len(seat) < max
 seat.append("p")
-
