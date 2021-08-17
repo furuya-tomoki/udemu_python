@@ -44,3 +44,26 @@ for i in range(n):
         point += int(uc / 10)
     # 0（所持ポイント）が300（運賃）より少なかったら、2000（所持金）から300(運賃)を差し引き運賃の10%を加算
     print(money, point)
+    
+    
+    num1, num2 = map(int,input().split())
+
+if num1 >= 25 or num2 < 40:
+    print("Yes")
+else:
+    print("No")
+    
+    
+v = input().split()
+N = int(v[0])
+K = float(v[1])
+
+total = 0
+for _ in range(N):
+    x = float(input())
+    total += round(x * 10)
+
+ans = int(total / round(K * 10))
+if total % round(K * 10) != 0:
+    ans += 1
+print(ans)
