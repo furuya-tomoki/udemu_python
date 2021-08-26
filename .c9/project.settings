@@ -24,6 +24,12 @@
         "configs": {
             "@inited": "true",
             "json()": {
+                "267": {
+                    "command": "rooter.rb",
+                    "name": "267",
+                    "runner": "Ruby",
+                    "toolbar": true
+                },
                 "PAIZA": {
                     "command": "test.rb",
                     "name": "PAIZA",
